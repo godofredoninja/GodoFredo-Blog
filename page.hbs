@@ -6,10 +6,12 @@
 {{#post}}
 
 <article class="post container mx-auto my-8 lg:max-w-1000">
-    <h1 class="post-title text-4xl md:text-44 mb-5 text-title text-center mx-auto max-w-3xl">{{title}}</h1>
+    {{#match @page.show_title_and_feature_image}}
+        <h1 class="post-title text-4xl md:text-44 mb-5 text-title text-center mx-auto max-w-3xl">{{title}}</h1>
 
-    {{!-- Featured Image - partials/article/article-media.hbs --}}
-    {{> "article/article-media"}}
+        {{!-- Featured Image - partials/article/article-media.hbs --}}
+        {{> "article/article-media"}}
+    {{/match}}
 
     <div class="post-body-wrap relative lg:flex mx-auto max-w-3xl">
         <div class="post-body min-w-0 js-post-content{{#match @custom.post_font "=" "font-serif"}} font-serif{{else}} font-sans{{/match}}{{#match @custom.post_font_size "=" "20px"}} text-xl{{else}} text-lg{{/match}}">
