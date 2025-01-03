@@ -4,9 +4,10 @@ const colors = require('tailwindcss/colors')
 module.exports = {
   // darkMode: 'class',
   theme: {
+    // This font-family applies to the body of a post. For everything else refer to _typography.sass
     fontFamily: {
-      sans: ['Public Sans', ...defaultTheme.fontFamily.sans],
-      serif: [...defaultTheme.fontFamily.serif]
+      sans: ['var(--gh-font-body, Atkinson Hyperlegible)', 'Public Sans', ...defaultTheme.fontFamily.sans],
+      serif: ['var(--gh-font-body, Atkinson Hyperlegible)', ...defaultTheme.fontFamily.serif]
     },
     colors: {
       transparent: 'transparent',

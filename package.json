@@ -1,10 +1,10 @@
 {
   "name": "mapache",
-  "description": "mapache theme for ghost by @GodoFredoNinja",
+  "description": "mapache theme for ghost by @GodoFredoNinja, fork for the Calnus website",
   "demo": "https://godofredo.ninja",
-  "version": "4.0.1",
+  "version": "4.0.1-calnus-2.0",
   "engines": {
-    "ghost": ">=5.0.0"
+    "ghost": ">=5.54.1"
   },
   "license": "gpl-3.0",
   "screenshots": {
@@ -149,6 +149,15 @@
       "comments_isso_fqdn": {
         "type": "text",
         "group": "post"
+      },
+      "youtube_url": {
+        "type": "text"
+      },
+      "linkedin_url": {
+        "type": "text"
+      },
+      "github_url": {
+        "type": "text"
       }
     }
   },

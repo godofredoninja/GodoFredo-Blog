@@ -2,14 +2,17 @@
 $whitegrey: #e5eff5;
 $darkgrey: #343f44;
 $blue: #3eb0ef;
+$elegantblack: #011627;
 
 :not(pre) > code {
   border-radius: 3px;
   white-space: normal;
-  background: $whitegrey;
+  //background: $whitegrey;
+  background: $elegantblack;
   // background: rgba(212, 53, 159, 0.03);
   text-shadow: none;
-  color: $darkgrey;
+  //color: $darkgrey;
+  color: #ffffff;
   // color: #b32585;
   font-size: .875em;
   padding: .2rem .33rem;
@@ -22,10 +25,12 @@ pre {
   padding: 20px;
   max-width: 100%;
   border: 0;
-  color: #1b1642;
+  //color: #1b1642;
+  color: #ffffff;
   font-size: 0.875rem;
   line-height: 1.6em;
-  background: #f8f9fa;
+  //background: #f8f9fa;
+  background: $elegantblack;
   border-radius: 5px;
   // background: #1d1d35;
   // background: #132419;
@@ -47,7 +52,7 @@ pre {
 /* stylelint-disable-next-line */
 code,
 pre {
-  font-family: Space Mono, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  font-family: JetBrains Mono, Space Mono, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
   white-space: pre;
   word-spacing: normal;
   word-break: normal;
@@ -82,7 +87,7 @@ pre[class*="language-"] {
     z-index: 3;
     top: .5rem;
     right: .75rem;
-    color: #467790;
+    color: #5a99b9;
     text-transform: uppercase;
     font-size: 0.75rem;
     font-weight: 500;
@@ -133,52 +138,53 @@ a > code[class*="language-"] {
   }
 
   &.cdata, &.comment, &.doctype, &.namespace, &.prolog {
-    color: #467790;
+    //color: #467790;
+    color: #7ab6d4;
   }
 
   &.attr-value, &.string {
-    color: #27ae60;
+    color: #4db378;
   }
 
   &.operator, &.punctuation, &.tag {
-    color: #9b51e0;
+    color: #ac71e4;
     font-weight: 500;
   }
 
   &.boolean, &.constant, &.entity, &.inserted, &.number, &.property, &.regex, &.symbol, &.url, &.variable {
-    color: #ff4081;
+    color: #ff5d93;
     font-weight: 500;
   }
 
   &.attr-name {
-    color: #f49a40;
+    color: #fcae61;
   }
 }
 
 .language-autohotkey .token.selector {
-  color: #006aff;
+  color: #549bff;
 }
 
 .token {
   &.atrule, &.keyword {
-    color: #006aff;
+    color: #549bff;
   }
 }
 
 .language-autohotkey .token.tag {
-  color: #5c51e0;
+  color: #948de3;
   font-weight: 500;
 }
 
 .token {
   &.deleted, &.function {
-    color: #5c51e0;
+    color: #948de3;
     font-weight: 500;
   }
 }
 
 .language-autohotkey .token.keyword, .token.selector {
-  color: #f44336;
+  color: #f36e65;
   font-weight: 500;
 }
 

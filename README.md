@@ -16,7 +16,7 @@
     <a href="https://twitter.com/godofredoninja">Twitter</a>
     <br /><br />
     <a href="https://github.com/TryGhost/Ghost">
-        <img src="https://img.shields.io/badge/Ghost-4.x-brightgreen.svg" alt="Ghost version" />
+        <img src="https://img.shields.io/badge/Ghost-5.x-brightgreen.svg" alt="Ghost version" />
     </a>
     <a href="https://www.paypal.com/paypalme/godofredoninja">
         <img src="https://img.shields.io/badge/donate-paypal-blue.svg" alt="Donate" />
